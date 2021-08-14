@@ -2,5 +2,18 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="..\dependencies\Hooking.Patterns\Hooking.Patterns.cpp">
+      <Filter>dependencies</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{c66627e5-43e1-425b-8caa-baaa8c98e0e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dependencies\Hooking.Patterns\Hooking.Patterns.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
