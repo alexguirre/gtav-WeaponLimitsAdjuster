@@ -16,4 +16,7 @@
       <Filter>dependencies</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="WeaponLimitsAdjuster.ini" />
+  </ItemGroup>
 </Project>
