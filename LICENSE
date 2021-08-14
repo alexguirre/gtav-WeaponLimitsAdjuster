@@ -1,6 +1,20 @@
+  The source code for adjusting the weapon components limit (`AdjustWeaponComponentsLimit` function and related)
+was adapted from the FiveM project:
+    https://github.com/citizenfx/fivem/blob/7f18e00424f684c7b147e7bb7136062f680bfc11/code/components/gta-streaming-five/src/PatchWeaponLimits.cpp#L74
+    https://github.com/citizenfx/fivem/blob/master/code/LICENSE
+
+      CitizenFX/FiveM are (c) 2017-2020 the CitizenFX Collective.
+
+      Use of this source code is subject to the terms provided on the CitizenFX
+    Collective web site, currently versioned (4) at the following web URL:
+    https://fivem.net/terms
+
+
+  The following license applies to the remaining source code:
+
 MIT License
 
-Copyright (c) 2018 alexguirre
+Copyright (c) 2021 alexguirre
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
