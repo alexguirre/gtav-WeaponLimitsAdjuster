@@ -15,5 +15,5 @@ If you have installed the old version and still have `CWeaponInfoBlob Adjuster.a
 
 The `WeaponLimitsAdjuster.ini` file allows you define the new limits. It has two settings:
 
-- `CWeaponInfoBlob`: determines the maximum number `weapons.meta` files that can be included in the game files (default: 1024).
+- `CWeaponInfoBlob`: determines the maximum number `weapons.meta` files that can be included in the game files (default: 512).
 - `CWeaponComponentInfo`: determines the maximum total number of weapon components that can be defined in `weaponcomponents.meta` files. **Important**: the pool size `CWeaponComponentInfo` in gameconfig.xml should have the same value, otherwise the game will crash when the number of weapon components reaches this pool size (default: 1024).
